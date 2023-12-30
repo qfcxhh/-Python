@@ -1,9 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2023-12-30T00:57:12.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.16" etag="3O23QKQ6fGpffyWpjoQa" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-30T00:59:12.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5hU0-9cfgU7imQRXiqHR" version="22.1.16" type="github">
   <diagram name="第 1 页" id="99JfJ2S63MmtbZURjEji">
-    <mxGraphModel>
+    <mxGraphModel dx="1440" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qguWud3L8pu7QGrir2PD-1" value="开始" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="413" y="140" width="47" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-2" value="初始化总和为0" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="377" y="224" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-3" value="输入自然数个数 N" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="366" y="307" width="142" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-4" value="从1至N迭代" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="388" y="391" width="98" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-5" value="累加当前数到总和" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="308" y="475" width="143" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-6" value="所有数累加完毕?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="353" y="558" width="167" height="167" as="geometry" />
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-7" value="输出总和" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="397" y="794" width="79" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-8" value="结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="413" y="878" width="47" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5053191489361702;exitY=0.9901961158303654;entryX=0.4979166666666667;entryY=-0.00980388416963465;rounded=0;" edge="1" parent="1" source="qguWud3L8pu7QGrir2PD-1" target="qguWud3L8pu7QGrir2PD-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4979166666666667;exitY=0.9803922316607308;entryX=0.4982394366197183;entryY=0.009803996366613051;rounded=0;" edge="1" parent="1" source="qguWud3L8pu7QGrir2PD-2" target="qguWud3L8pu7QGrir2PD-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.4982394366197183;exitY=1.0000001121969784;entryX=0.49744897959183676;entryY=1.1219697840073529e-7;rounded=0;" edge="1" parent="1" source="qguWud3L8pu7QGrir2PD-3" target="qguWud3L8pu7QGrir2PD-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.26237904990191085;exitY=0.9901962280273438;entryX=0.5;entryY=-0.00980377197265625;rounded=0;" edge="1" parent="1" source="qguWud3L8pu7QGrir2PD-4" target="qguWud3L8pu7QGrir2PD-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.9803923438577091;entryX=0.2375509679847601;entryY=0.00199604605486293;rounded=0;" edge="1" parent="1" source="qguWud3L8pu7QGrir2PD-5" target="qguWud3L8pu7QGrir2PD-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="533" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-14" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.7654430439912878;exitY=0.00199604605486293;entryX=0.7325189092817626;entryY=0.9901962280273438;rounded=0;" edge="1" parent="1" source="qguWud3L8pu7QGrir2PD-6" target="qguWud3L8pu7QGrir2PD-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="494" y="533" />
+              <mxPoint x="494" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-15" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.5014970059880239;exitY=1.0039921149522244;entryX=0.5031645569620253;entryY=0.009804445154526654;rounded=0;" edge="1" parent="1" source="qguWud3L8pu7QGrir2PD-6" target="qguWud3L8pu7QGrir2PD-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qguWud3L8pu7QGrir2PD-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5031645569620253;exitY=1.000000560984892;entryX=0.5053191489361702;entryY=5.609848920036765e-7;rounded=0;" edge="1" parent="1" source="qguWud3L8pu7QGrir2PD-7" target="qguWud3L8pu7QGrir2PD-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
